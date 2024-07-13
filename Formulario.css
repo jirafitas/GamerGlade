@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -23,7 +22,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 110px;
+    margin-top: 50px;
     border-radius: 4px;
     font-family: 'calibry';
     color: white;
@@ -65,4 +64,10 @@ body{
 
 .container-form .btn-enviar:hover {
     background: rgb(127, 75, 217);
+}
+.registro {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
 }
