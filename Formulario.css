@@ -12,70 +12,37 @@ body{
     
 }
 
-.volver a { 
-color: aliceblue;
-}
 
 
 .container-form {
-    height: 600px;
-    color: white;
-    background-color:rgb(10, 3, 59);
     width: 100%;
     max-width: 600px;
-    margin: auto;
-    display: grid; 
-    grid-gap: 50px; 
-    margin-top: 90px; 
+    background-color:rgb(10, 3, 59);
+    padding: 30px;
+    grid-gap: 30px; 
     justify-content: center;
     align-items: center;
-    box-shadow: 7px 13px 32px #000;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 4px;
+    font-family: 'calibry';
+    color: white;
 }
-
-.container-form h2{
-    margin-bottom: 40px; 
-    font-size: 40px; 
+.container-form h2 {
+    font-size: 60px;
+    margin-bottom: 40px;
+    
 
 }
-
-.container-form p {
-    font-size: 17px;
-    line-height: 1.6; 
-    margin-bottom: 30px; 
-}
-
-.container-form a {
-    font-size: 17px;
-    display: inline-block; 
-    text-decoration: none;
+.campo {
     width: 100%;
-    margin-bottom: 15px;
-    color: black;
-    font-weight: 700;
-}
-
-.container-form a i {
-    color: orange; 
-    margin-right: 10px;
-}
-
-.container-form form .campo,
-.container-form form textarea {
-    width: 100%;
-    display: flex;
     padding: 15px;
     font-size: 15px;
     border: 1px solid gray;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     border-radius: 5px; 
 }
-
-.container-form form textarea {
-    max-width: 530px;
-    max-height: 150px;
-}
-
-.container-form form .listado{
+.listado{
     width: 34%;
     padding: 15px;
     font-size: 15px;
@@ -83,7 +50,6 @@ color: aliceblue;
     margin-bottom: 20px;
     border-radius: 3px; 
 }
-
 .container-form .btn-enviar {
     width: 100%;
     padding: 15px;
@@ -100,4 +66,3 @@ color: aliceblue;
 .container-form .btn-enviar:hover {
     background: rgb(127, 75, 217);
 }
-
