@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+body{
+    background-image: url(../fondo.jpg);
+    background-size: cover;
+    
+}
+
+
+
+.container-form {
+    width: 100%;
+    max-width: 600px;
+    background-color:rgba(19, 144, 198, 0.7388);
+    padding: 30px;
+    grid-gap: 30px; 
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 4px;
+    font-family: 'calibry';
+    color: rgb(23, 10, 71);
+    
+}
+
+.container-form h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    
+
+}
+.campo {
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid rgb(103, 219, 97);
+    margin-bottom: 25px;
+    border-radius: 20px; 
+}
+
+.container-form .btn-enviar {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    outline: 0;
+    background: rgb(103, 219, 97);
+    color: rgb(7, 7, 7);
+    border-radius: 3px;
+    cursor: pointer; 
+    transition: all 900ms ease-in-out;
+}
+.container-form .btn-enviar:hover {
+    background: rgb(127, 75, 217);
+    
+}
+
+    .registro {
+        color: rgb(103, 219, 9);
+        font-size: 25px;
+        text-align: center;
+}
