@@ -16,7 +16,7 @@ body{
 .container-form {
     width: 100%;
     max-width: 600px;
-    background-color:rgb(10, 3, 59);
+    background-color:rgb(103, 144, 198,0.738);
     padding: 30px;
     grid-gap: 30px; 
     justify-content: center;
@@ -52,7 +52,7 @@ body{
 .container-form .btn-enviar {
     width: 100%;
     padding: 15px;
-    font-size: 16px;
+    font-size: 22px;
     border: none;
     outline: 0;
     background: rgb(0, 190, 254);
@@ -67,7 +67,7 @@ body{
 }
 .registro {
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     
 }
