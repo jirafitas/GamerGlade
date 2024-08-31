@@ -29,7 +29,7 @@ Swal.fire({
     icon: 'success',
     title: 'Registro exitoso',
     text: 'Tu registro se ha realizado con exito'
-})
 }).then(() => {
-    window.location.href = 'login.html'
+    window.location.href = 'index.html'
+})   
 })
