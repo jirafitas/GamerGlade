@@ -5,12 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ingresar</title>
     <link rel="stylesheet" href="./css/Ingresar.css">
+    <script src="https://kit.fontawesome.com/d3c8ba32df.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
 <section class="container-form">
+    <a href="index.html">
+        <img src="img/logo.png" href="index.html" class="logo"> 
+    </a>
     <h2>Iniciar sesión</h2>
-    <input type="text" name="nombre" placeholder="Nombre de usuario:" class="campo">
-    <input type="password" name="contraseña" placeholder="Contraseña:" class="campo">
+    <input type="text" name="nombre" placeholder="Nombre de usuario:"  id="name" class="campo">
+    <input type="password" name="contraseña" placeholder="Contraseña:" id="password" class="campo">
         <input type="submit" value="Iniciar sesión" class="btn-enviar">
         
     
@@ -19,6 +24,8 @@
 name="reguistro" class= registro> 
 <p>si no tienes una cuenta, <a href="Formulario.html">Registrate</a></p>
 </div>
+<script src="./js/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
 
