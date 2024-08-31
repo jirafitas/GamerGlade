@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.iconocarro,
+.iconousuario {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.card {
+  width: 600px; /* Ancho de la tarjeta */
+  height: 450px; /* Alto de la tarjeta para hacerla cuadrada */
+  background-color: #000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.circle-image {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Para que la imagen llene el círculo */
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+.container {
+  margin-top: 50px; /* Aumentar la distancia desde la parte superior */
+  margin-bottom: 50px; /* Aumentar la distancia desde la parte inferior */
+}
+
