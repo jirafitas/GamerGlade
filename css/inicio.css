@@ -1,104 +1,69 @@
-body{
-
-    margin: 0;
-}
-.color{
-width: 2000px;
-height: 50px;
-background-color: black;
-}
-header{
-    display:flex;
-    height: 0px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 100px;
-    margin: 0;
-}
-.IconosEncabezado{
-    height: 10px;
+body {
+  margin: 0;
 }
 
-.nombre{
-    position: relative;
-    top: 10px;
-    right: 100px;
-    font-size: 300%;
-}
-.logo{
-    display: flex;
-    align-items: center;
-
-
-}
-.logo img{
-    height: 100px;
-    margin-right: 10px;
-    position: relative;
-    top: 10px;
-    right: 90px;
-
-}
-nav{
-    display: flex;
-    height: 17px;
-    padding: 20px;
-    position: relative;
-    left: 280px;
-    
+.modal-body table {
+  margin: 0 auto;
+  width: 100%;
 }
 
-.opciones{
-    position: relative;
-    right: 300px;
-    font-size: 170%;
-    padding: 25px;
-    top:20px;
+.modal-body th,
+.modal-body td {
+  text-align: center;
+  vertical-align: middle;
 }
-nav a{
-    font-weight: 500;
-    padding-right: 10px;
-    color: black
+
+.logo {
+  margin-left: 15px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
-.iconocarro{
-    width: 70px;
-    height: 70px;
-    position:relative;
-    top: 0px;
-    left: 40px;
-}
+
+.iconocarro,
 .iconousuario {
-    width: 70px;
-    height: 70px;
-    position: relative;
-    top: 0px;
-    left: 45px;
-
-
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  margin-right: 15px;
 }
 
+.color {
+  width: 2000px;
+  height: 50px;
+  background-color: black;
+}
 
+header {
+  display: flex;
+  height: 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+  margin: 0;
+}
 
-
-
+header .opciones {
+  font-size: 20px;
+  margin: 0 10px;
+  color: black;
+}
 
 .contenedorcomputadores {
-    background-color: brown;
-    width: 1110px;
-    height: 1110px;
+  background-color: brown;
+  width: 1110px;
+  height: 1110px;
 }
 .contenedorcomputadores .card {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
-@media (max-width:700px){
-    
-    header{
-        flex-direction: column;
-    }
-    nav{
-        padding: 10px 0px;
-    }
-
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+  }
+  nav {
+    padding: 10px 0px;
+  }
 }
