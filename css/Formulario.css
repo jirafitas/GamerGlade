@@ -6,17 +6,21 @@
     
 }
 body{
-    background-image: url(../fondo.jpg);
+    background-image: url(../img/fondo\ formulario.png);
     background-size: cover;
     
 }
 
-
+.logo {
+    width: 90px;
+    height: 50px;
+    
+}
 
 .container-form {
     width: 100%;
     max-width: 600px;
-    background-color:rgb(103, 144, 198,0.738);
+    background-color:rgb(0, 0, 0);
     padding: 30px;
     grid-gap: 30px; 
     justify-content: center;
@@ -25,7 +29,7 @@ body{
     margin-top: 50px;
     border-radius: 4px;
     font-family: 'calibry';
-    color: white;
+    color: rgb(0, 255, 247);
 }
 .container-form h2 {
     font-size: 60px;
@@ -37,7 +41,7 @@ body{
     width: 100%;
     padding: 15px;
     font-size: 15px;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     margin-bottom: 15px;
     border-radius: 5px; 
 }
@@ -45,7 +49,7 @@ body{
     width: 34%;
     padding: 15px;
     font-size: 15px;
-    border: 1px solid gray;
+    border: 1px solid rgb(0, 0, 0);
     margin-bottom: 20px;
     border-radius: 3px; 
 }
@@ -63,7 +67,7 @@ body{
 }
 
 .container-form .btn-enviar:hover {
-    background: rgb(127, 75, 217);
+    background: rgb(246, 255, 0);
 }
 .registro {
     color: white;
