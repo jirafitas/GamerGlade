@@ -1,348 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GamerGladet</title>
-    <link rel="icon" href="./img/il_fullxfull.2711637734_l1qp.webp">
-    <link rel="stylesheet" href="css/inicio.css">
-    <link rel="stylesheet" href="css/almacen.css">
+    <link rel="icon" href="./img/il_fullxfull.2711637734_l1qp.webp" />
+    <link rel="stylesheet" href="css/inicio.css" />
     <!-- Font Awesome -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-rel="stylesheet"
-/>
-<!-- Google Fonts -->
-<link
-href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-rel="stylesheet"
-/>
-<!-- MDB -->
-<link
-href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css"
-rel="stylesheet"
-/>
-</head>
-<body>
-  <div class="color">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.css" rel="stylesheet" />
+  </head>
 
-  </div>
-  <header class="IconosEncabezado">
-    <div class="logo">
-      <img src="img/il_fullxfull.2711637734_l1qp.webp" alt="logo de la pagina">
-      <h2 class="nombre">Gamerglade</h2>
-    </div>
-    <nav>
-      <a href="index.html" class="opciones">Inicio</a>
-      <a href="consolas.html" class="opciones">Consolas</a>
-      <a href="computadores.html" class="opciones">Computadores</a>
-      <a href="accesorios.html" class="opciones">Accesorios</a>
-    
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <img class="logo" src="img/il_fullxfull.2711637734_l1qp.webp" alt="logo de la pagina" />
+      <a class="navbar-brand" href="index.html">Gamerglade</a>
+      <button
+        class="navbar-toggler"
+        data-target="#my-nav"
+        data-toggle="collapse"
+        aria-controls="my-nav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="my-nav" class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="consolas.html">Consolas</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="computadores.html">Computadores</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="accesorios.html">Accesorios</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+        </ul>
+      </div>
+      <!--icono de carrito-->
+      <div style="position: relative">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#cartModal">
+          <img class="iconocarro" src="img/diseno-icono-carrito-compras-diseno-ilustracion_1047751-365.avif" />
+          <span id="cart-count" class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-black">0</span>
+        </a>
+      </div>
+      <!--icono de usuario-->
+      <div>
+        <a href="Ingresar.html">
+          <img class="iconousuario" src="img/user-profile-icon-free-vector.jpg" />
+        </a>
+      </div>
     </nav>
-        <!--icono de carrito-->
-        <div>
-          <a href="">
-            <img class="iconocarro" src="img/diseno-icono-carrito-compras-diseno-ilustracion_1047751-365.avif">
-        </div>
-  <!--icono de usuario-->
-    <div>
-      <a href="Ingresar.html">
-        <img class="iconousuario" src="img/user-profile-icon-free-vector.jpg">
-      </a>
-    </div>
 
+    <br />
+    <br />
 
-
-  </header>
-  <div class="card-group"><!--CARDS-->
-    <div class="card">
-      <img src="./img almacen/197497202632-001-750Wx750H.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer Victus HP 15,6" Pulgadas Fa0000la Intel Core I5- RAM 16GB - Disco SSD 512GB - Azul</h5>
-        <p class="card-text">
-          -$3.399.000
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/4711387522639-001-750Wx750H.webp" class="card-img-top" alt="Palm Springs Road"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer ASUS TUF 15.6" Pulgadas FX507ZC4 - Intel Core i5 - RAM 16GB - Disco SSD 512 GB - Gris</h5>
-        <p class="card-text">-3.699.000</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img ALMACEN/4711474037008-001-750Wx750H.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer ACER NITRO 15.6" Pulgadas 527M - Intel Core i5 - RAM 16GB - Disco SSD 512GB - Negro</h5>
-        <p class="card-text">
-          - $3.397.000
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/198122718306-001-750Wx750H.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer HP Victus 15.6" Pulgadas Fa1098la Intel Core i5 - RAM 16GB - Disco SSD 1TB - Azul</h5>
-        <p class="card-text">
-          - $4.399.000
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/4711474061935-001-750Wx750H.webp" class="card-img-top" alt="Palm Springs Road"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer PREDATOR 16" Pulgadas 71VC - Intel Core i7 - RAM 32GB - Disco SSD 1TB - Negro</h5>
-        <p class="card-text">- $6.699.000</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/4711121760792-001-750Wx750H.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer ACER NITRO 15.6" Pulgadas 51S2 Intel Core i5 - RAM 8GB - Disco SSD 512GB - Negro</h5>
-        <p class="card-text">
-          - $3.599.000
-
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-   </div>  <!--CARDS-->
-   <div class="card-group"><!--CARDS-->
-    <div class="card">
-      <img src="./img almacen/198153728671-001-750Wx750H.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer LENOVO LOQ 15.6" Pulgadas 15IAX9 - Intel Core i5 - RAM 24GB - Disco SSD 512GB - Gris</h5>
-        <p class="card-text">
-          - $3.899.000
-
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/4711387567043-001-750Wx750H.webp" class="card-img-top" alt="Palm Springs Road"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer ASUS TUF Gaming 15.6" Pulgadas FA506NCR - AMD Ryzen 7 - RAM 8GB - Disco SSD 512 GB SSD - Negro</h5>
-        <p class="card-text">- $3.499.000</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/8806094143379-001-750Wx750H (1).webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
-      <div class="card-body">
-        <h5 class="card-title">Monitor SAMSUNG Gamer 27" pulgadas G320NL Negro</h5>
-        <p class="card-text">
-          - $769.900
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/197532976634-001-750Wx750H.webp" class="card-img-top" alt="Hollywood Sign on The Hill"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer LENOVO 15,6" Pulgadas IdeaPad Gaming 3 15ARH7 - AMD Ryzen 5 - RAM 8GB - Disco SSD 512GB - Gris</h5>
-        <p class="card-text">
-          - $2.999.000
-
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/197498350141-001-750Wx750H.webp" class="card-img-top" alt="Palm Springs Road"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portatil Gamer HP Victus 15,6" Pulgadas Fa0004la INTEL Core i5- RAM 8GB - Disco SSD 512GB - Azul</h5>
-        <p class="card-text">- $3.199.000</p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-    <div class="card">
-      <img src="./img almacen/4711387370650-001-750Wx750H.webp" class="card-img-top" alt="Los Angeles Skyscrapers"/>
-      <div class="card-body">
-        <h5 class="card-title">Computador Portátil Gamer ROG Zephyrus G16 16" Pulgadas GU605MI - Intel Core Ultra 9 185H - RAM 32GB - Disco SSD 1 TB - Gris</h5>
-        <p class="card-text">
-          - $10.499.000
-
-        </p>
-        <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
-        </p>
-      </div>
-    </div>
-   </div>  <!--CARDS-->
-   
-  
-      <!-- Carousel wrapper -->
-<div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-carousel-init>
-    <!-- Indicators -->
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-mdb-target="#carouselBasicExample"
-        data-mdb-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-mdb-target="#carouselBasicExample"
-        data-mdb-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-mdb-target="#carouselBasicExample"
-        data-mdb-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
-    </div>
-
-    <!-- Inner -->
-    <div class="carousel-inner">
-      <!-- Single item -->
-      <div class="carousel-item active">
-        <img src="img/rail imagen 1.png" class="d-block w-100" alt="Sunset Over the City"/>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Ve al proximo nivel</h5>
-          <p>pc gamers de todas las gamas.</p>
-        </div>
-      </div>
-
-      <!-- Single item -->
-      <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh"/>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </div>
-
-      <!-- Single item -->
-      <div class="carousel-item">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp" class="d-block w-100" alt="Cliff Above a Stormy Sea"/>
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
-      </div>
-    </div>
-    <!-- Inner -->
-
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-  <!-- Carousel wrapper -->
-   <section class="">
-    <!-- Footer -->
-    <footer class="bg-body-tertiary text-center">
-      <!-- Grid container -->
-      <div class="container p-4">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 class="text-uppercase">GamerGlade</h5>
-  
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-              molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
-              aliquam voluptatem veniam, est atque cumque eum delectus sint!
-            </p>
+    <div class="container">
+      <div class="row my-3">
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer Victus HP 15,6 Pulgadas Fa0000la"
+                class="card-img-top"
+                src="./img almacen/197497202632-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 1</samp>
+              <h5 class="card-title">$3.399.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer Victus HP 15,6" Pulgadas Fa0000la Intel Core I5- RAM 16GB - Disco SSD 512GB - Azul
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
           </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-body">Home</a>
-              </li>
-              <li>
-                <a href="#!" class="text-body">Nosotros</a>
-              </li>
-              <li>
-                <a href="#!" class="text-body">Contactanos</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-  
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase mb-0">Links</h5>
-  
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!" class="text-body">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-body">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-body">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-body">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
         </div>
-        <!--Grid row-->
-      </div>
-      <!-- Grid container -->
-  
-      <!-- Copyright -->
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2024 Gamerglade
-      </div>
-      <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-  </section>
 
-  
-  <script
-  type="text/javascript"
-  src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.umd.min.js"
-  ></script>
-</body>
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer ASUS TUF 15.6 Pulgadas FX507ZC4"
+                class="card-img-top"
+                src="./img almacen/4711387522639-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 2</samp>
+              <h5 class="card-title">$3.699.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer ASUS TUF 15.6" Pulgadas FX507ZC4 - Intel Core i5 - RAM 16GB - Disco SSD 512 GB - Gris
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer ACER NITRO 15.6 Pulgadas 527M"
+                class="card-img-top"
+                src="./img ALMACEN/4711474037008-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 3</samp>
+              <h5 class="card-title">$3.397.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer ACER NITRO 15.6" Pulgadas 527M - Intel Core i5 - RAM 16GB - Disco SSD 512GB - Negro
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer HP Victus 15.6 Pulgadas Fa1098la"
+                class="card-img-top"
+                src="./img almacen/198122718306-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 4</samp>
+              <h5 class="card-title">$4.399.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer HP Victus 15.6" Pulgadas Fa1098la Intel Core i5 - RAM 16GB - Disco SSD 1TB - Azul
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-3">
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer PREDATOR 16 Pulgadas 71VC"
+                class="card-img-top"
+                src="./img almacen/4711474061935-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 5</samp>
+              <h5 class="card-title">$6.699.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer PREDATOR 16" Pulgadas 71VC - Intel Core i7 - RAM 32GB - Disco SSD 1TB - Negro
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer ACER NITRO 15.6 Pulgadas 51S2"
+                class="card-img-top"
+                src="./img almacen/4711121760792-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 6</samp>
+              <h5 class="card-title">$3.599.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer ACER NITRO 15.6" Pulgadas 51S2 Intel Core i5 - RAM 8GB - Disco SSD 512GB - Negro
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer LENOVO LOQ 15.6 Pulgadas 15IAX9"
+                class="card-img-top"
+                src="./img almacen/198153728671-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 7</samp>
+              <h5 class="card-title">$3.899.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer LENOVO LOQ 15.6" Pulgadas 15IAX9 - Intel Core i5 - RAM 24GB - Disco SSD 512GB - Gris
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer ASUS TUF Gaming 15.6 Pulgadas FA506NCR"
+                class="card-img-top"
+                src="./img almacen/4711387567043-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 8</samp>
+              <h5 class="card-title">$3.499.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer ASUS TUF Gaming 15.6" Pulgadas FA506NCR - AMD Ryzen 7 - RAM 8GB - Disco SSD 512 GB SSD -
+                Negro
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row my-3">
+        <!--CARDS-->
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Monitor SAMSUNG Gamer 27 pulgadas G320NL Negro"
+                class="card-img-top"
+                src="./img almacen/8806094143379-001-750Wx750H (1).webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 9</samp>
+              <h5 class="card-title">$769.900</h5>
+              <p class="card-text">Monitor SAMSUNG Gamer 27" pulgadas G320NL Negro</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer LENOVO 15,6 Pulgadas IdeaPad Gaming 3 15ARH7"
+                class="card-img-top"
+                src="./img almacen/197532976634-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 10</samp>
+              <h5 class="card-title">$2.999.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer LENOVO 15,6" Pulgadas IdeaPad Gaming 3 15ARH7 - AMD Ryzen 5 - RAM 8GB - Disco SSD 512GB
+                - Gris
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer HP Victus 15,6 Pulgadas Fa0004la"
+                class="card-img-top"
+                src="./img almacen/197498350141-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 11</samp>
+              <h5 class="card-title">$3.199.000</h5>
+              <p class="card-text">
+                Computador Portatil Gamer HP Victus 15,6" Pulgadas Fa0004la INTEL Core i5- RAM 8GB - Disco SSD 512GB - Azul
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card" style="height: 500px">
+            <div style="height: 50%; overflow: hidden">
+              <img
+                title="producto"
+                alt="Computador Portátil Gamer ROG Zephyrus G16 16 Pulgadas GU605MI"
+                class="card-img-top"
+                src="./img almacen/4711387370650-001-750Wx750H.webp"
+                style="height: 100%; width: 100%; object-fit: contain"
+              />
+            </div>
+            <div class="card-body" style="height: 50%">
+              <samp>Computador 12</samp>
+              <h5 class="card-title">$10.499.000</h5>
+              <p class="card-text">
+                Computador Portátil Gamer ROG Zephyrus G16 16" Pulgadas GU605MI - Intel Core Ultra 9 185H - RAM 32GB - Disco SSD 1
+                TB - Gris
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="btn btn-dark w-100" name="btnAccion" value="Agregar" type="submit">Agregar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--CARDS-->
+    </div>
+
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+      <div class="modal-dialog" style="max-width: 80%; width: auto">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartModalLabel">Tu Carrito</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Imagen</th>
+                  <th>Producto</th>
+                  <th>Precio</th>
+                  <th>Cantidad</th>
+                  <th>Total</th>
+                  <th>Acción</th>
+                </tr>
+              </thead>
+              <tbody id="cart-items">
+                <!-- Aquí se añadirán los productos -->
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <h5>Total: $<span id="total-price">0</span></h5>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Carousel wrapper -->
+    <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel" data-mdb-carousel-init>
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-mdb-target="#carouselBasicExample"
+          data-mdb-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- Inner -->
+      <div class="carousel-inner">
+        <!-- Single item -->
+        <div class="carousel-item active">
+          <img src="img/rail imagen 1.png" class="d-block w-100" alt="Sunset Over the City" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Ve al proximo nivel</h5>
+            <p>pc gamers de todas las gamas.</p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(22).webp" class="d-block w-100" alt="Canyon at Nigh" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+
+        <!-- Single item -->
+        <div class="carousel-item">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(23).webp"
+            class="d-block w-100"
+            alt="Cliff Above a Stormy Sea"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Inner -->
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel wrapper -->
+
+    <section class="">
+      <!-- Footer -->
+      <footer class="bg-body-tertiary text-center">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05)">
+          <p>© Gamerglade 2024</p>
+          <p>Todos los derechos reservados</p>
+        </div>
+      </footer>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/7.3.2/mdb.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/carrito.js"></script>
+  </body>
 </html>
