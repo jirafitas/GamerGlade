@@ -1,3 +1,4 @@
+
 const registrate = document.querySelector('#registrate');
 
 //Agregar un evento para el envio del formulario
