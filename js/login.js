@@ -1,10 +1,10 @@
 const loginForm = document.querySelector('#login')
 
-loginForm.addEventListener('submit', (e) => {
+loginForm.addEventListener('submit', (e) =>{
     e.preventDefault()
 
-    const email = document.querySelector('#correo').value
-    const password = document.querySelector('#contraseña').value
+    const email = document.querySelector('#name').value
+    const password = document.querySelector('#password').value
     const users = JSON.parse(localStorage.getItem('users')) || []
     const validUser = users.find(user => user.email === email && user.password === password)
     
@@ -22,5 +22,9 @@ loginForm.addEventListener('submit', (e) => {
         text: `Bienvenido ${validUser.name}`
     })
     localStorage.setItem('login_success', JSON.stringify(validUser))
-    window.open('https://buy.stripe.com/test_aEUaGE2vQffsf3a5kl', 'blank')
+    window.location.href='index.html', 'blank'
+    alert("ingreso_exitoso")
+    .then(() => {
+        window.location.href = 'index.html'
+    })  
 })
